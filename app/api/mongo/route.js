@@ -5,7 +5,7 @@ export async function GET(request) {
 
 
 // Replace the uri string with your connection string.
-const uri = "mongodb+srv://Jarvis:Marvel1234!@atlascluster.rpwkswp.mongodb.net/";
+const uri = "mongodb+srv://****:******@atlascluster.*****.mongodb.net/";
 const client = new MongoClient(uri);
   try {
     const database = client.db('stock');
